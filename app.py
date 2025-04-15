@@ -1,3 +1,4 @@
+import download_nltk_data   # <- This will trigger NLTK data download on deploy
 import streamlit as st
 import pickle
 from nltk.stem.porter import PorterStemmer
