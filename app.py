@@ -11,7 +11,7 @@ import base64
 # Set page config as the first command
 st.set_page_config(page_title="Spam Message Classifier", page_icon="📱", layout="wide")
 
-#nltk.data.path.append('nltk_data')
+
 
 ps = PorterStemmer()
 
